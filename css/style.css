@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Midnight_Green: #014e56;
+  --Light_Coral: #f67e7e;
+  --White: #ffffff;
+  --Rapture_Blue: #79c8c7;
+  --Police_Blue: #2c6269;
+  --Deep_Jungle_Green: #004047;
+  --Sacramento_State_Green: #012f34;
+  --Dark_Green: #002529;
+}
+
+header {
+  width: auto;
+  height: 700px;
+  background-color: var(--Midnight_Green);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1110px;
+}
+
+.graphics-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.content {
+  width: 635px;
+  height: 200px;
+  font-family: Livvic;
+  font-size: 100px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--White);
+
+}
+
+.talent {
+  color: var(--Light_Coral);
+}
+
+.top-menu {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navigation {
+  display: flex;
+  width: 49px;
+  height: 28px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--White);
+  margin-left: -380px;
+}
+
+.link {
+  margin: 0 32px;
+}
+
+.btn {
+    align-self: flex-end;
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: solid 2px var(--White);
+    width: 89px;
+    height: 28px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: right;
+    color: var(--White);
+    padding: 9px 32px 11px;
+
+}
+
+.top-h1 {
+  width: 800px;
+  height: 196px;
+  font-family: Livvic;
+  font-size: 100px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--White);
+}
+
+.top-text {
+  display: flex;
+  height: calc(100% - 230px);
+  align-items: center;
+}
+
+.top-paragraph {
+  width: 445px;
+  height: 112px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: var(--White);
+}
+
+.rectangle {
+  width: 50px;
+  height: 4px;
+  background-color: var(--Rapture_Blue);
+}
+
+.second-row {
+  width: 635px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.graphic-left{
+    position: absolute;
+    top: 27%;
+}
+
+.inside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 110px;
+}
+
+.about {
+  width: auto;
+  height: 684px;
+  background-color: var(--Sacramento_State_Green);
+
+}
