@@ -155,16 +155,15 @@ header {
   margin-left: 30px;
 }
 
-.graphic-left{
-    position: absolute;
-    top: 21%;
-}
-
 .inside {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     height: 110px;
+}
+
+.outside {
+  margin-top: -450px;
 }
 
 .about {
@@ -206,7 +205,7 @@ header {
   opacity: 0.8;
   font-family: Livvic;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.67;
@@ -242,12 +241,11 @@ header {
   padding-top: 110px;
 }
 
-.svg-right {
-  position: absolute;
-  right: 0px;
-  bottom: -200px;
+.shapes {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -150px;
 }
-
 
 .testimony {
   width: auto;
