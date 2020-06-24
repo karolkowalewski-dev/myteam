@@ -110,6 +110,7 @@ header {
   line-height: 1;
   letter-spacing: normal;
   color: var(--White);
+  z-index: 1;
 }
 
 .top-text {
@@ -134,7 +135,15 @@ header {
 .rectangle {
   width: 50px;
   height: 4px;
+}
+
+.green {
   background-color: var(--Rapture_Blue);
+}
+
+.coral {
+  background-color: var(--Light_Coral);
+  margin-bottom: 54px;
 }
 
 .second-row {
@@ -148,7 +157,7 @@ header {
 
 .graphic-left{
     position: absolute;
-    top: 27%;
+    top: 21%;
 }
 
 .inside {
@@ -163,4 +172,85 @@ header {
   height: 684px;
   background-color: var(--Sacramento_State_Green);
 
+}
+
+.about-h2 {
+  width: 445px;
+  height: 144px;
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--White);
+}
+
+.title {
+  width: 445px;
+  height: 28px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: var(--Light_Coral);
+}
+
+.paragraph {
+  width: 445px;
+  height: 50px;
+  opacity: 0.8;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: var(--White);
+  margin-top: 16px;
+
+}
+
+.about-content {
+  display: flex;
+
+}
+
+.info {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.description {
+  margin-left: 23px;
+}
+
+.title {
+  margin-top: 16px;
+}
+
+.right-row {
+  padding: 164px 0 0 125px;
+}
+
+.left-row {
+  padding-top: 110px;
+}
+
+.svg-right {
+  position: absolute;
+  right: 0px;
+  bottom: -200px;
+}
+
+
+.testimony {
+  width: auto;
+  height: 745px;
+  background-color: var(--Deep_Jungle_Green);
 }
