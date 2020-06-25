@@ -251,4 +251,112 @@ header {
   width: auto;
   height: 745px;
   background-color: var(--Deep_Jungle_Green);
+  display: flex;
+  align-items: center;
+}
+
+.testimony-text {
+  width: 932px;
+  height: 96px;
+  font-family: Livvic;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--White);
+}
+
+.success {
+  color: var(--Rapture_Blue);
+}
+
+.top-row {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph-2 {
+  width: 350px;
+  height: 100px;
+  font-family: Livvic;
+  font-size: 15px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--White);
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  margin: 15px;
+}
+
+.quote {
+  margin-bottom: -18px;
+}
+
+.green-title {
+  width: 350px;
+  height: 28px;
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--Rapture_Blue);
+  padding-top: 24px;
+}
+
+.job-title {
+  width: 350px;
+  height: 18px;
+  font-family: Livvic;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--White);
+  padding-top: 24px;
+}
+
+.avatar {
+  width: 62px;
+  height: 62px;  
+  margin-top: 56px;
+}
+
+.box {
+  align-self: center;
+}
+
+.bottom-row {
+  display: flex;
+  padding-top: 56px;
+}
+
+.contact-us {
+  width: auto;
+  height: 200px;
+  background-color: var(--Light_Coral);
+}
+
+.graphic-shape {
+  position: absolute;
+  right: 0;
+  margin-top: 322px;
 }

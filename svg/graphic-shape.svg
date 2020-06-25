@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="100" viewBox="0 0 147 100">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#002529" d="M47 0H147V100H47z" transform="matrix(-1 0 0 1 147 0) rotate(180 97 50)"/>
+        <path fill="#79C8C7" d="M100 96v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100z" transform="matrix(-1 0 0 1 147 0)"/>
+    </g>
+</svg>
