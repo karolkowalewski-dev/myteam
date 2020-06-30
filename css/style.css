@@ -98,6 +98,11 @@ header {
     padding: 9px 32px 11px;
 }
 
+.btn:hover {
+  background-color: var(--White);
+  color: var(--Dark_Green);
+}
+
 .top-h1 {
   width: 800px;
   height: 196px;
@@ -455,6 +460,16 @@ footer {
   align-self: flex-start;
 }
 
+.link:hover {
+  color: var(--Light_Coral);
+}
 
+a {
+  text-decoration: none;
+  color: var(--White);
+}
 
+svg:hover {
+  fill: var(--Light_Coral);
+}
 
