@@ -395,6 +395,11 @@ header {
 
 }
 
+.btn-dark:hover {
+  color: var(--White);
+  background-color: var(--Sacramento_State_Green)
+}
+
 .button-contact {
   margin-right: 84px;
 }
