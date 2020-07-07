@@ -1,2 +1,2 @@
 # myteam
-Find the best talent website project 
+Project in progress called "Find the best talent" website. 
