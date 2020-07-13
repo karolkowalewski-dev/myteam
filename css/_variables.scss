@@ -1,0 +1,17 @@
+
+
+$midnight-Green: #014e56;
+$lightCoral: #f67e7e;
+$white: #ffffff;
+$raptureBlue: #79c8c7;
+$policeBlue: #2c6269;
+$deepJungleGreen: #004047;
+$sacramentoStateGreen: #012f34;
+$darkGreen: #002529;
+
+$main-fonts: Livvic;
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+}
