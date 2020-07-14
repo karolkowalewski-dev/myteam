@@ -15,3 +15,24 @@ $main-fonts: Livvic;
     display: flex;
     align-items: center;
 }
+
+@mixin container {
+    margin: 0 auto;
+    width: 1110px;
+    @include responsive(laptop) {
+        width: calc(100% - 220px);
+    }
+
+    @include responsive(tablet) {
+        width: calc(100% - 80px);
+    }
+
+    @include responsive(mobile) {
+        width: calc(100% - 48px);
+    }    
+}
+
+@mixin rectangle {
+    width: 50px;
+    height: 4px;
+}

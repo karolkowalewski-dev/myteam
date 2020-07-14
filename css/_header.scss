@@ -1,27 +1,13 @@
 header {
     width: auto;
-    // height: 700px;
-    height: 100vh;
+    height: 700px;
     background-color: $midnight-Green;
     
     .container {
-        margin: 0 auto;
-        width: 1110px;
+        @include container();
         @include flexCenter();
-        height: 120px;
-
-        @include responsive(laptop) {
-            width: calc(100% - 250px);
-        }
-
-        @include responsive(tablet) {
-            width: calc(100% - 80px);
-        }
-
-        @include responsive(mobile) {
-            width: calc(100% - 48px);
-        }
-
+        height: 120px; 
+        
         .nav-mobile {
 
             .menu {
@@ -43,13 +29,11 @@ header {
         }     
 
         .menu-mobile {
-
             width: 100%;
             @include responsive(mobile) {
                 width: 0;
             }
 
-            
             .pop-menu {
                 display: flex;
                 align-items: center;
@@ -69,7 +53,6 @@ header {
                     flex-direction: column;
                 }    
                 
-    
                 .close-icon {
                     display: none;
                     @include responsive(mobile) {
@@ -260,8 +243,7 @@ header {
             }
 
             .rectangle {
-                width: 50px;
-                height: 4px;
+                @include rectangle();
 
                 @include responsive(tablet) {
                     visibility: hidden;

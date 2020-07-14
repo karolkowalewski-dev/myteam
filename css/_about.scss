@@ -1,3 +1,190 @@
+
+
 .about {
-    display: none;
+    width: auto;
+    height: 684px;
+    background-color: $sacramentoStateGreen;
+    @include responsive(tablet) {
+        height: 710px;
+    }
+
+    @include responsive(mobile) {
+        height: 1073px;
+    }
+
+    .about-content {
+        @include container();
+        padding-top: 140px;
+        display: flex;
+        justify-content: space-between;
+        @include responsive(tablet) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 0;
+            height: 710px;
+        }
+
+        @include responsive(mobile) {
+            flex-direction: column;
+            padding-top: 64px;
+        }
+
+        .left-row {
+            @include responsive(laptop) {
+            padding-right: 40px;
+        }
+
+            .rectangle {
+                @include rectangle();        
+            }
+
+            .coral {
+                background-color: $lightCoral;
+                margin-bottom: 54px;
+            } 
+
+            .about-h2 {
+                width: 445px;
+                height: 144px;
+                font-family: Livvic;
+                font-size: 48px;
+                font-weight: bold;
+                line-height: 1;
+                color: $white;
+                @include responsive(tablet) {
+                    width: 530px;
+                    font-size: 32px;
+                }
+
+                @include responsive(mobile) {
+                    width: 240px;
+                    font-size: 32px;
+                }
+            }
+        }
+
+           .right-row {
+            @include responsive(desktop) {
+                padding-top: 62px;
+            }   
+
+            @include responsive(laptop) {
+                padding-top: 62px;
+            }
+            
+            @include responsive(mobile) {
+                padding-top: 92px;
+            } 
+        
+            .info {
+                display: flex;
+                margin-bottom: 32px;
+                @include responsive(mobile) {
+                    flex-direction: column;
+                }
+            }
+
+            .description {        
+                margin-left: 23px;
+        
+                @include responsive(mobile) {  
+                    padding-top: 24px;
+                
+                }
+
+                .title {
+                    width: 445px;
+                    height: 28px;
+                    font-family: Livvic;
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 1.56;
+                    color: $lightCoral;
+                    @include responsive(mobile) {
+                        text-align: center;
+                        width: 100%;
+                    }
+                  }
+                  
+                  .paragraph {
+                    width: 364px;
+                    height: 50px;
+                    opacity: 0.8;
+                    font-family: Livvic;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 1.67;
+                    color: $white;
+                    margin-top: 16px;
+                    @include responsive(laptop) {
+                        width: 286px;
+                    }
+
+                    @include responsive(mobile) {
+                        text-align: center;
+                        width: 100%;
+                    }
+                  
+                  }
+              }
+          }
+
+    }
+
+    .shapes {
+        position: absolute;
+        right: 0;
+        margin-top: -140px;
+        @include responsive(tablet) {
+            margin-top: -710px;
+        }
+
+        @include responsive(mobile) {
+            margin-top: -1024px;
+        }
+    }
 }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+      
+      
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
