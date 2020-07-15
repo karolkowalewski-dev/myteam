@@ -1,3 +1,198 @@
 .testimony {
-    display: none;
+    width: auto;
+    height: 745px;
+    background-color: $deepJungleGreen;
+    display: flex;
+    align-items: center;
+    @include responsive(tablet) {
+        height: 1260px;
+    }
+
+    @include responsive(mobile) {
+        height: 1410px;
+    }
+
+    .testimony-content {
+        @include container();
+
+        .top-row {
+            display: flex;
+            justify-content: center;
+            @include responsive(tablet) {
+                padding-top: 110px;
+            }
+
+            .testimony-text {
+                width: 932px;
+                height: 96px;
+                font-family: Livvic;
+                font-size: 48px;
+                font-weight: bold;
+                line-height: 1;
+                text-align: center;
+                color: $white;
+                @include responsive(tablet) {
+                    font-size: 32px;
+                    width: 488px;
+                }
+
+                @include responsive(mobile) {
+                    font-size: 32px;
+                    width: 327px;
+                }
+                
+                .success {
+                    color: $raptureBlue;
+                }
+            }
+        }
+
+          .bottom-row {
+            display: flex;
+            padding-top: 56px;
+            justify-content: center;
+            @include responsive(tablet) {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            @include responsive(mobile) {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .comments {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                margin: 15px;
+                align-items: center;
+                @include responsive(laptop) {
+                    margin: 0;
+                }
+
+                .quote {
+                    margin-bottom: -18px;
+                }
+
+                .paragraph-2 {
+                    width: 100%;
+                    height: 100px;
+                    font-family: Livvic;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 1.67;
+                    text-align: center;
+                    color: $white;
+                    @include responsive(laptop) {
+                        width: 300px;
+                    }
+
+                    @include responsive(tablet) {
+                        width: 480px;
+                        height: 64px;
+                    }
+                }
+
+                .green-title {
+                    width: 350px;
+                    height: 28px;
+                    font-family: Livvic;
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 1.56;
+                    text-align: center;
+                    color: $raptureBlue;
+                    padding-top: 24px;
+                }
+
+                .job-title {
+                    width: 350px;
+                    height: 18px;
+                    font-family: Livvic;
+                    font-size: 13px;
+                    font-weight: 500;
+                    font-style: italic;
+                    line-height: 1.38;
+                    text-align: center;
+                    color: $white;
+                    padding-top: 24px;
+                }
+
+                .box {
+                    align-self: center;
+
+                    .avatar {
+                        width: 62px;
+                        height: 62px;  
+                        margin-top: 56px;
+                    }
+                }
+            }
+        }
+    }
+
+    .graphic {
+        position: absolute;
+        right: 0;
+        margin-top: 272px;
+        @include responsive(tablet) {
+            margin-top: 530px;
+        }
+
+        @include responsive(mobile) {
+            margin-top: 605px;
+        }
+    }
+
+    .graphic-top {
+        position: absolute;
+        left: 0;
+        margin-top: -374px;
+        @include responsive(tablet) {
+            margin-top: -632px;
+        }
+
+        @include responsive(mobile) {
+            margin-top: -705px;
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  

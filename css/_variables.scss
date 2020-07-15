@@ -20,7 +20,7 @@ $main-fonts: Livvic;
     margin: 0 auto;
     width: 1110px;
     @include responsive(laptop) {
-        width: calc(100% - 220px);
+        width: calc(100% - 148px);
     }
 
     @include responsive(tablet) {
