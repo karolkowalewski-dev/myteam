@@ -41,6 +41,7 @@ header {
                 justify-content: space-between;
 
                 @include responsive(mobile) {
+                    display: none;
                     position: absolute;
                     top: 0;
                     right: 0;
@@ -166,13 +167,14 @@ header {
                 position: absolute;
                 top: 0;
                 left: 0;
-                transition: all 0.3s ease;
+                transition: all 0.1s ease;
             }
 
             .show {
                 transform: translate(0%);
                 transition: all 1s ease;
                 visibility: visible;
+                display: block;
             }
         }          
 

@@ -84,6 +84,7 @@ header .container .menu-mobile .pop-menu {
 
 @media only screen and (min-width: 320px) and (max-width: 640px) {
   header .container .menu-mobile .pop-menu {
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
@@ -231,8 +232,8 @@ header .container .menu-mobile .background {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 header .container .menu-mobile .show {
@@ -241,6 +242,7 @@ header .container .menu-mobile .show {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
   visibility: visible;
+  display: block;
 }
 
 header .top-text {

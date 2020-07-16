@@ -6,7 +6,6 @@
     const bg = document.querySelector(".background");
     
 
-
     button.addEventListener("click", function(e) {
             e.preventDefault();
             menu.classList.add("show");
