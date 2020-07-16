@@ -1,3 +1,111 @@
 .contact-us {
-    display: none;
+    width: auto;
+    height: 200px;
+    background-color: $lightCoral;
+    @include responsive(mobile) {
+        height: 302px;
+    }
+
+    .contact-content {
+        @include container();
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 200px;
+        @include responsive(mobile){
+            flex-direction: column;
+        }
+
+        .ready {
+            width: 504px;
+            height: 48px;
+            font-family: Livvic;
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 1;
+            color: $sacramentoStateGreen;
+            @include responsive(tablet){
+                font-size: 32px;
+                height: 32px;
+                width: 360px;
+            }
+            @include responsive(mobile){
+                font-size: 32px;
+                width: 332px;
+                text-align: center;
+                padding-top: 70px;
+            }
+        }
+
+        .button-contact {
+            @include responsive(laptop) {
+                margin-right: 84px;
+            }
+
+            .btn-dark {
+                width: 89px;
+                height: 28px;
+                font-family: Livvic;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1.56;
+                color: $sacramentoStateGreen;
+                padding: 9px 32px 11px;
+                border-radius: 24px;
+                border: solid 2px $sacramentoStateGreen;
+                @include responsive(laptop){
+                    &:hover {
+                        color: $white;
+                        background-color: $sacramentoStateGreen;
+                    }
+                } 
+                
+                @include responsive(desktop){
+                    &:hover {
+                        color: $white;
+                        background-color: $sacramentoStateGreen;
+                    }
+                } 
+            }
+        }
+    }
+
+    .contact-shapes {
+        margin-top: -144px;
+        @include responsive(mobile) {
+            margin-top: -42px;
+        }
+
+        .shape {
+            @include responsive(laptop) {
+                object-position: 0 26px;
+                margin-left: -26px;
+            }
+
+            @include responsive(tablet) {
+                object-position: 0 26px;
+                margin-left: -26px
+            }
+
+            @include responsive(mobile) {
+                object-position: 0 26px;
+                margin-left: -26px
+            }
+        }    
+    }
 }
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
