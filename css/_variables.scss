@@ -10,6 +10,7 @@ $sacramentoStateGreen: #012f34;
 $darkGreen: #002529;
 
 $main-fonts: Livvic;
+$second-font: Livvic-SemiBold;
 
 @mixin flexCenter {
     display: flex;
@@ -35,4 +36,10 @@ $main-fonts: Livvic;
 @mixin rectangle {
     width: 50px;
     height: 4px;
+}
+
+@mixin gap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

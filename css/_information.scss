@@ -1,3 +1,62 @@
-.information {
-    display: none;
+.footer {
+    width: auto;
+    height: 196px;
+    background-color: $darkGreen;
+    color: $white;
+    display: flex;
+    align-items: center;
+    font-family: $second-font;
+
+    .footer-info {
+        width: 1110px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        .logo-nav {
+            @include gap();
+        }
+
+        .navigation {
+            display: flex;
+            font-size: 18px;
+        }
+
+        .link {
+            padding-right: 40px;
+        }
+
+        .address {
+            margin-left: -240px;
+
+            .paragraph {
+                font-size: 15px;
+                line-height: 1.67;
+                opacity: 0.6;
+            }    
+        }
+
+        .social-copyright {
+            @include gap();
+
+            .social-media {
+                align-self: flex-end;
+            }
+
+            .white-space {
+                padding-left: 16px;
+            }
+
+            .paragraph {
+                font-size: 15px;
+                line-height: 1.67;
+                opacity: 0.6;
+                align-self: flex-end;
+    
+                .copyright {
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
 }
