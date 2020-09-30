@@ -6,24 +6,18 @@
     display: flex;
     align-items: center;
     font-family: $second-font;
-    @include responsive(tablet) {
-        height: 271px;
-    }
-
+    
     .footer-info {
         width: 1110px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: 0 auto;
         @include container();
-        @include responsive(tablet) {
-            display: flex;
-            justify-content: center;
-        }
-
+        
         .logo-nav {
             @include gap();
-            margin-bottom: 130px;
+            
         
             .footer-nav {
             margin-top: 24px; 
@@ -43,9 +37,6 @@
 
         .address {
             margin-left: -240px;
-            @include responsive(tablet) {
-                margin: 0;
-            }
             
             .paragraph {
                 font-size: 15px;
@@ -55,13 +46,12 @@
         }
 
         .social-copyright {
-            @include gap();
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
 
             .social-media {
                 align-self: flex-end;
-                @include responsive(tablet) {
-                    
-                }
             }
 
             .white-space {
