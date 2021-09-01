@@ -43,3 +43,7 @@ $second-font: Livvic-SemiBold;
     flex-direction: column;
     justify-content: space-between;
 }
+
+@mixin height {
+    height: 100px;
+}

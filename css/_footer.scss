@@ -5,7 +5,7 @@
     color: $white;
     display: flex;
     align-items: center;
-    font-family: $second-font;
+    font-family: $main-fonts;
     
     .footer-info {
         width: 1110px;
@@ -13,11 +13,10 @@
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
-        @include container();
         
         .logo-nav {
             @include gap();
-            
+            @include height();
         
             .footer-nav {
             margin-top: 24px; 
@@ -37,6 +36,7 @@
 
         .address {
             margin-left: -240px;
+            @include height();
             
             .paragraph {
                 font-size: 15px;
@@ -48,7 +48,8 @@
         .social-copyright {
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: space-between;
+            @include height();
 
             .social-media {
                 align-self: flex-end;
