@@ -27,7 +27,7 @@
 
         @include responsive(mobile) {
             flex-direction: column;
-            padding-top: 64px;
+            padding: 64px 0 32px 0;
         }
 
         .left-row {
@@ -82,6 +82,8 @@
                 margin-bottom: 32px;
                 @include responsive(mobile) {
                     flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 64px;
                 }
             }
 
