@@ -1139,6 +1139,7 @@ header .outside {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100px;
+  margin: 16px 0;
 }
 
 .footer .footer-info .logo-nav .footer-nav {
@@ -1150,6 +1151,8 @@ header .outside {
   display: -ms-flexbox;
   display: flex;
   font-size: 18px;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .footer .footer-info .link {
@@ -1163,7 +1166,7 @@ header .outside {
 
 @media only screen and (min-width: 640px) and (max-width: 1080px) {
   .footer .footer-info .address {
-    margin-left: 0;
+    margin: 16px 0;
   }
 }
 
@@ -1171,6 +1174,7 @@ header .outside {
   font-size: 15px;
   line-height: 1.67;
   opacity: 0.5;
+  text-align: center;
 }
 
 .footer .footer-info .social-copyright {
@@ -1185,11 +1189,13 @@ header .outside {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100px;
+  margin: 16px 0;
 }
 
 .footer .footer-info .social-copyright .social-media {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .footer .footer-info .social-copyright .white-space {
@@ -1200,13 +1206,15 @@ header .outside {
   font-size: 15px;
   line-height: 1.67;
   opacity: 0.6;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .footer .footer-info .social-copyright .paragraph .copyright {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 *, *:before, *:after {

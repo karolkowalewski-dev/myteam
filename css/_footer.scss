@@ -26,6 +26,7 @@
         .logo-nav {
             @include gap();
             @include height();
+            margin: 16px 0;
         
             .footer-nav {
             margin-top: 24px; 
@@ -37,6 +38,7 @@
         .navigation {
             display: flex;
             font-size: 18px;
+            align-self: center;
         }
 
         .link {
@@ -47,7 +49,7 @@
             margin-left: -240px;
             @include height();
             @include responsive(tablet) {
-                margin-left: 0;
+                margin: 16px 0;
                 
             }
             
@@ -55,6 +57,7 @@
                 font-size: 15px;
                 line-height: 1.67;
                 opacity: 0.5;
+                text-align: center;
             }    
         }
 
@@ -63,9 +66,10 @@
             flex-direction: column;
             justify-content: space-between;
             @include height();
+            margin: 16px 0;
 
             .social-media {
-                align-self: flex-end;
+                align-self: center;
             }
 
             .white-space {
@@ -76,10 +80,10 @@
                 font-size: 15px;
                 line-height: 1.67;
                 opacity: 0.6;
-                align-self: flex-end;
+                align-self: center;
     
                 .copyright {
-                    align-self: flex-end;
+                    align-self: center;
                 }
             }
         }
